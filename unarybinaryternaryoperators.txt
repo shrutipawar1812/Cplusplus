@@ -1,0 +1,44 @@
+Code:-
+
+#include <iostream>
+
+int main() {
+        
+    std::cout << "Unary, Binary and Ternary Operators :-\n";
+    int a=20, b=3, c=0;
+    std::cout << "a=" <<a<< " b=" <<b<< " c=" <<c<<"\n";
+    a=-a;
+    std::cout << "Unary (-a) : After Change of Sign a=" <<a<<"\n";
+    a=++a;
+    std::cout << "Unary (++a) : After Increment a=" <<a<<"\n";
+    a=--a;
+    std::cout << "Unary (--a) : After Decrement a=" <<a<<"\n";
+    c=a+b;
+    std::cout << "Binary (c=a+b) : Addition c=" <<c<<"\n";
+    c=a-b;
+    std::cout << "Binary (c=a-b) : Subtraction c=" <<c<<"\n";
+    c=a*b;
+    std::cout << "Binary (c=a*b) : Multiplication c=" <<c<<"\n";
+    c=a/b;
+    std::cout << "Binary (c=a/b) : Quotient c=" <<c<<"\n";
+    c=a%b;
+    std::cout << "Binary (c=a%b) : Remainder c=" <<c<<"\n";
+    c=(a>b)?a:b;
+    std::cout << "Ternary (c=(a>b)?a:b) : c=" <<c<<"\n";
+    return 0;
+    
+}
+
+Output:- 
+
+Unary, Binary and Ternary Operators :-
+a=20 b=3 c=0
+Unary (-a) : After Change of Sign a=-20
+Unary (++a) : After Increment a=-19
+Unary (--a) : After Decrement a=-20
+Binary (c=a+b) : Addition c=-17
+Binary (c=a-b) : Subtraction c=-23
+Binary (c=a*b) : Multiplication c=-60
+Binary (c=a/b) : Quotient c=-6
+Binary (c=a%b) : Remainder c=-2
+Ternary (c=(a>b)?a:b) : c=3
